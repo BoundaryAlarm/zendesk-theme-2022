@@ -1,17 +1,122 @@
-<div class="container-divider"></div>
-<div class="container">
-  <nav class="sub-nav">
-    {{breadcrumbs}}
-    <div class="search-container">
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon">
+<section id="myHero" class="section hero-internal">
+  <div class="hero-internal-wrap">
+    <div class="hero-internal-left">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
         <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
         <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
       </svg>
-      {{search scoped=settings.scoped_kb_search submit=false}}
+      {{search submit=false instant=settings.instant_search class='search search-full'}}
     </div>
+    <div class="hero-internal-right">
+      <div class="nav-wrapper-desktop">
+    <nav class="user-nav" id="user-nav">
+      <ul class="user-nav-list">
+        <!--<li><a href="/hc/en-gb/community/topics">Community</a></li>-->
+        {{#unless signed_in}}
+          <li>
+            {{#link "sign_in" class="sign-in"}}
+              {{t 'sign_in'}}
+            {{/link}}
+          </li>
+        {{/unless}}
+      </ul>
+    </nav>
+    <div class="user-info dropdown">
+      <button class="dropdown-toggle" aria-haspopup="true">
+        {{#if signed_in}}
+          {{user_avatar class="user-avatar"}}
+        {{/if}}
+        <span>
+          <span data-user-name="true"></span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon" aria-hidden="true">
+            <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+          </svg>
+        </span>
+      </button>
+      <div class="dropdown-menu" role="menu">
+        {{#if signed_in}}
+          <a role="menuitem" class="requests-link" href="/hc/en-gb/requests">Requests</a>
+          <a role="menuitem" href="/hc/contributions/posts?locale=en-gb">Activities</a>
+        {{/if}}        
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-wrapper-mobile">
+    <button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+      {{#if signed_in}}
+        {{user_avatar class="user-avatar"}}
+      {{/if}}
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
+      </svg>
+    </button>
+    <nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
+      <ul class="menu-list-mobile-items">
+        {{#if signed_in}}
+          <li class="user-avatar-item item">
+            <a class="my-profile" role="menuitem" href="/hc/en-gb/profiles/367493108957">
+              {{user_avatar class="user-avatar"}}
+              <div class="menu-profile-name">
+                <div><span data-user-name="true"></span></div>
+                <div class="my-profile-tooltip">Profile</div>
+              </div>
+            </a>
+          </li>
+          <li class="item"><a role="menuitem" class="requests-link" href="/hc/en-gb/requests">Requests</a></li>
+          <li class="item"><a role="menuitem" href="/hc/contributions/posts?locale=en-gb">Activities</a></li>
+          <li class="item"></li>
+          <li class="item"></li>
+          <li class="nav-divider"></li>
+        
+        <li class="item"><a role="menuitem" href="/hc/en-gb/community/topics">Community</a></li>
+        <li class="item"></li>
+        <li class="nav-divider"></li>
+        {{else}}
+          <li class="item">
+            {{#link "sign_in" role="menuitem"}}
+              {{t 'sign_in'}}
+            {{/link}}
+          </li>
+          <li class="nav-divider"></li>
+        {{/if}}
+        <li class="item">{{link 'community' role="menuitem"}}</li>
+        <li class="item">{{link 'new_request' role="menuitem" class='submit-a-request'}}</li>
+        <li class="nav-divider"></li>
+        {{#if signed_in}}
+          <li class="item">
+            {{link "sign_out" role="menuitem"}}
+          </li>
+        {{/if}}
+        </li>
+      </ul>
+    </nav>
+  </div>
+    </div>
+  </div>
+</section>
+<div class="container-divider"></div>
+<div class="container">
+  <nav class="sub-nav" id="mySubNav">
+    {{breadcrumbs}}
+    
   </nav>
 
   <div class="category-container">
+    <aside class="category-sidebar" aria-labelledby="section-category-title">
+      <h2>Help Topics</h2>
+      <ul>
+        {{#each sections}}
+          <li class="section-name"><a href="{{url}}">{{name}}</a></li>
+        {{/each}}
+      </ul>
+      <h2>Getting Help</h2>
+      <ul>
+        <li><a href="#">Chat to us</a></li>
+        <li><a href="#">Send support request</a></li>
+      </ul>
+    </aside>
     <div class="category-content">
       <header class="page-header">
         <h1>{{category.name}}</h1>
@@ -61,3 +166,17 @@
     </div>
   </div>
 </div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHero");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>

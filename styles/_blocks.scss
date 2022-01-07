@@ -18,20 +18,22 @@
       margin: 0 15px 30px;
     }
 
-    border: 1px solid $brand_color;
-    border-radius: 4px;
+   border: 1px solid #E9E9EE;
     box-sizing: border-box;
+    border-radius: 16px;
     color: $brand_color;
     display: flex;
     flex: 1 0 340px;
     margin: 0 0 30px;
     max-width: 100%;
-    text-align: center;
+    text-align: left;
 
-    &:hover,
+    &:hover{
+      border: 1px solid #006BD9;
+    }
     &:focus,
     &:active {
-      background-color: $brand_color;
+      
 
       * {
         color: $brand_text_color;
@@ -55,17 +57,20 @@
   }
 
   &-item-link {
+    background: #ffffff;
     color: $brand_color;
     padding: 20px 30px;
     display: flex;
     flex-direction: column;
     flex: 1;
     justify-content: center;
-    border-radius: inherit;
+    border-radius: 16px;
+    text-decoration: none;
 
     &:hover,
     &:active {
       text-decoration: none;
+
     }
     
     &:focus {
@@ -75,8 +80,13 @@
   }
 
   &-item-title {
+    font-weight: bold;
+    font-style: normal;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #006BD9;
+    
   }
 
   &-item-description {

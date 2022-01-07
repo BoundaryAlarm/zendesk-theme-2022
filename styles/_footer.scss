@@ -1,10 +1,10 @@
 /***** Footer *****/
 .footer {
-  border-top: 1px solid $border-color;
-  margin-top: 60px;
+  background-color: #026BD9;
   padding: 30px 0;
-
-  a { color: $secondary-text-color; }
+  color: wwhite;
+  a, p { color: #fff; }
+  p { color: #fff; }
 
   &-inner {
     @include max-width-container;
@@ -12,8 +12,51 @@
     justify-content: space-between;
   }
 
-  &-language-selector button {
-    color: $secondary-text-color;
+  &-logo{
+    width: 50%;
+    horiztonal-align: left;
+    margin-right: 10px;
+  }
+  &-account{
+    flex-grow: 1;
+    & a {
+      font-weight: 600;
+      font-size: 14px;
+      color: #ffffff;
+    }
+  }
+}
+.footer-logos{
+  & ul{
+    list-style-stype: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   text-align: left;
+  }
+  & ul > li{
     display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    min-width: 20px;
+  }
+  & a{
+    font-weight: bold;
+  }
+  & img{
+    width: 75px;
+  } 
+}
+.footer-grid{
+  display: flex;
+  &-col {
+    flex: 1;
+    & ul {
+      list-style_type: none;
+    }
+    & li {
+      margin-left: 5px;
+      margin-bottom: 5px;
+    }
   }
 }
