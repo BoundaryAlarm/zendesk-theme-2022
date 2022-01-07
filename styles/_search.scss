@@ -1,22 +1,24 @@
 /***** Search field *****/
 .search {
-  position: relative;
+  position: static;
 
   input[type="search"] {
-    border: 1px solid $border-color;
-    background-color: white;
-    border-radius: 30px;
+    border: 1px solid #D9D9DF;
+    background-color: #ffffff;
+    border-radius: 10px;
     box-sizing: border-box;
-    color: $field-text-color;
-    height: 40px;
-    padding-left: 40px;
-    padding-right: 20px;
+    color: #8A8A8E;
+    height: 48px;
+    padding: 12px;
+    padding-left: 45px;
     -webkit-appearance: none;
-    width: 100%;
+    width: 528px;
+    font-size: 16px;
+    line-height: 24px;
 
     [dir="rtl"] & {
       padding-right: 40px;
-      padding-left: 20px;
+      padding-left: 200px;
     }
 
     &:focus {
@@ -33,7 +35,7 @@
 .search-icon {
   @include vertical-align;
   position: absolute;
-  left: 15px;
+  left: 8.83%;
   z-index: 1;
   width: 18px;
   height: 18px;

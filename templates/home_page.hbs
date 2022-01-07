@@ -1,13 +1,21 @@
 <h1 class="visibility-hidden">{{ help_center.name }}</h1>
 
 <section id="main-content" class="section hero">
+
   <div class="hero-inner">
+     <h2>How can we help you?</h2>
     <h2 class="visibility-hidden">{{ t 'search' }}</h2>
     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
       <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
       <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
     </svg>
     {{search submit=false instant=settings.instant_search class='search search-full'}}
+  </div>
+  <div class="hero-buttons">
+    <ul id="horizontal-list">
+      <li class="button-link">Quick Start Guide</li>
+      <li class="button-link">Your  Account</li>
+    </ul>
   </div>
 </section>
 
@@ -56,6 +64,7 @@
                       <path fill="none" stroke="currentColor" d="M4.5 7.5V4a3.5 3.5 0 017 0v3.5"/>
                     </svg>
                   {{/if}}
+                  <img src="{{asset 'icon_arrow-right.png'}}" />
                 </a>
             </li>
           {{/each}}
@@ -64,7 +73,7 @@
     {{/if}}
   </section>
 
-  {{#if help_center.community_enabled}}
+  <!--{{#if help_center.community_enabled}}
     <section class="section home-section community">
       <h2>{{t 'community'}}</h2>
       {{#link 'community' class='community-link'}}
@@ -73,11 +82,32 @@
 
       <div class="community-image"></div>
     </section>
-  {{/if}}
+  {{/if}}-->
 
-  <section class="section home-section activity">
+  <!---<section class="section home-section activity">
     {{#if settings.show_recent_activity}}
       {{recent_activity}}
     {{/if}}
+  </section>--->
+</div>
+<div class="container-white">
+  <section class="section home-team">
+     <h2>Meet the team!</h2>
+     <p>Here at Boundary we are obsessed with providing an exceptional customer experience and that is supplied by our team below.</p>
+     <p>To find out more about the team, just click their heads!</p>
+     <ul>
+        <li><a href="#"><img src="{{asset 'headshot_phil.png'}}" /><br />Phil Williams - Head of CX</a></li>
+        <li><a href="#"><img src="{{asset 'headshot_leslie.png'}}" /><br />Leslie Connelly - CX Lead</a></li>
+        <li><a href="#"><img src="{{asset 'headshot_joe.png'}}" /><br />Joe Quinn - CX Agent</a></li>
+        <li><a href="#"><img src="{{asset 'headshot_bonnie.png'}}" /><br />Bonnie - CX Bot</a></li>
+     </ul>    
+  </section>
+  <section class="section home-reviews">
+    <script src="https://widget.reviews.io/carousel-inline-iframeless/dist.js?_t=2021100810"></script>
+    <link rel="stylesheet" href="https://assets.reviews.io/css/widgets/carousel-widget.css?_t=2021100810">
+    <link rel="stylesheet" href="https://assets.reviews.io/iconfont/reviewsio-icons/style.css?_t=2021100810">
+    <div class="container-xxl py-5 px-0 px-sm-5">
+    <div id="reviewsio-carousel-widget"></div>
+    <script src="{{asset 'reviewsio_min.js'}}"></script>
   </section>
 </div>

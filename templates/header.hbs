@@ -2,15 +2,15 @@
 
 <header class="header">
   <div class="logo">
-    {{#link 'help_center'}}
-      <img src="{{settings.logo}}" alt="{{t 'home_page' name=help_center.name}}" />
-      {{#if settings.show_brand_name}}
-        <span aria-hidden="true">{{help_center.name}}</span>
-      {{/if}}
-    {{/link}}
+    <a href="https://boundary.co.uk/" class="site-head__logo">
+      <picture>
+        <source srcset="{{asset 'logo_boundary.svg'}}" type="image/svg+xml">
+        <img src="{{asset 'logo_boundary.png'}}" alt="Boundary Logo" title="Boundary">
+      </picture>
+    </a>
   </div>
 
-  <div class="nav-wrapper-desktop">
+ <!-- <div class="nav-wrapper-desktop">
     <nav class="user-nav" id="user-nav">
       <ul class="user-nav-list">
         <li>{{link 'community'}}</li>
@@ -92,6 +92,6 @@
         </li>
       </ul>
     </nav>
-  </div>
+  </div>-->
 
 </header>
