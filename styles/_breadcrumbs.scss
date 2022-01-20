@@ -19,7 +19,8 @@
     text-overflow: ellipsis;
 
     + li::before {
-      content: ">";
+      color: #6D6D72;
+      content: " / ";
       margin: 0 4px;
     }
     a:visited {

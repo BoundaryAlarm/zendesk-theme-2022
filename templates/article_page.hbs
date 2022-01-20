@@ -1,45 +1,58 @@
-<div class="container-divider"></div>
-<div class="container">
-  <nav class="sub-nav">
-    {{breadcrumbs}}
-    <div class="search-container">
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon">
+<section id="myHero" class="section hero-internal">
+  <div class="hero-internal-wrap">
+    <div class="hero-internal-left">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon-internal" aria-hidden="true">
         <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
         <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
       </svg>
-      {{search scoped=settings.scoped_kb_search submit=false}}
+      {{search submit=false instant=settings.instant_search class='search search-full'}}
     </div>
+    <div class="hero-internal-right">
+      <div class="hero-internal-buttons">
+        <ul id="horizontal-list">
+          {{#if signed_in}}
+            <a href="/hc/en-gb/requests">
+            <li class="button-link">Your  Tickets</li>
+          </a>
+          {{else}}
+            
+              {{#link "sign_in" class="internal-sign-in"}}
+              <li class="button-link">
+              {{t 'sign_in'}}
+              </li>
+            {{/link}}
+
+          {{/if}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <nav class="sub-nav">
+    {{breadcrumbs}}
+    
   </nav>
 
   <div class="article-container" id="article-container">
-    <aside class="article-sidebar" aria-labelledby="section-articles-title">
-      {{#if settings.show_articles_in_section}}
-        <div class="collapsible-sidebar">
-          <button type="button" class="collapsible-sidebar-toggle" aria-labelledby="section-articles-title" aria-expanded="false">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon chevron-icon">
-              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon x-icon">
-              <path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
-            </svg>
-          </button>
-          <span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
-            {{t 'articles_in_section'}}
-          </span>
-          <div class="collapsible-sidebar-body">
-            <ul>
-              {{#each section.articles}}
-                <li>
-                  <a href="{{url}}" class="sidenav-item {{#is id ../article.id}}current-article{{/is}}">{{title}}</a>
-                </li>
-              {{/each}}
-            </ul>
-            {{#if section.more_articles}}
-              <a href="{{section.url}}" class="article-sidebar-item">{{t 'see_more'}}</a>
-            {{/if}}
-          </div>
-        </div>
-      {{/if}}
+    
+    <aside class="article-sidebar" aria-labelledby="section-category-title">
+      <h2>Help Topics</h2>
+      <ul>
+        <!--<li class="section-name"><img src="{{asset 'icon_presales.png'}}"><a href="/hc/en-gb/categories/4417335099793">Presale FAQs</a></li>-->
+        <li class="section-name"><img src="{{asset 'icon_gettingstarted.png'}}"><a href="/hc/en-gb/categories/360000301657">Getting Started</a></li>
+        <li class="section-name"><img src="{{asset 'icon_problemsolving.png'}}"><a href="/hc/en-gb/categories/360003496557">Problem Solving</a></li>
+        <li class="section-name"><img src="{{asset 'icon_youraccount.png'}}"><a href="/hc/en-gb/categories/360000564798">Your Account & System</a></li>
+        <li class="section-name"><img src="{{asset 'icon_mobileapp.png'}}"><a href="/hc/en-gb/categories/360000305798">Mobile App</a></li>
+        <li class="section-name"><img src="{{asset 'icon_smartphone.png'}}"><a href="/hc/en-gb/categories/360003500438">Smart Home Integration</a></li>
+        <!--<li class="section-name"><img src="{{asset 'icon_friend_invite.png'}}"><a href="/hc/en-gb/requests/new">Refer & Earn</a></li>-->
+      </ul>
+      <h2>Getting Help</h2>
+      <ul>
+        <!--<li><img src="{{asset 'icon_chat.png'}}"><a href="#">Chat to us</a></li>-->
+        <li><img src="{{asset 'icon_supportticket.png'}}"><a href="/hc/en-gb/requests/new">Send support request</a></li>
+      </ul>
     </aside>
 
     <article id="main-content" class="article">
@@ -167,6 +180,7 @@
           {{related_articles}}
         {{/if}}
       </div>
+      <!--
       {{#if settings.show_article_comments}}
         <div class="article-comments" id="article-comments">
           <section class="comments">
@@ -316,6 +330,7 @@
           </section>
         </div>
       {{/if}}
+    -->
     </article>
   </div>
 </div>

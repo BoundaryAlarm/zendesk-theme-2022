@@ -5,12 +5,21 @@
     justify-content: flex-end;
   }
   &-sidebar {
+    @include mobile { display: none; }
+
     @include desktop {
       border: 0;
       flex: 0 0 20%;
       height: auto;
+      h2{
+        font: Barlow;
+        font-weight: 600;
+        font-stryle: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+      }
     }
-
     border-bottom: 1px solid $border-color;
     border-top: 1px solid $border-color;
     flex: 1 0 auto; //Explicit values needed whith flex-direction: column for IE11
@@ -21,20 +30,33 @@
     }
     & li {
       margin-bottom: 16px;
+
     }
     & li a{
       color: #006BD9;
       font-weight: bold;
       font-size: 18px;
       line-height: 28px;
+      vertical-align: top;
+      padding-left: 10px;
+    }
+    & li img{
+      width: 30px;
     }
   }
+  
   &-content {
     @include desktop {
       flex: 0 0 80%;
     }
 
     flex: 1;
+  }
+  &-sidebar-mobile{
+    @include desktop { display: none; }
+    @include mobile {
+      font-size: 50px;
+    }
   }
 }
 .section-tree {
@@ -51,8 +73,12 @@
 
   &-title {
     margin-bottom: 0;
-    font-size: 18px;
-    font-weight: bold;
+    border-bottom: 1px solid #006BD9;
+    font: Barlow;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
 
     a {
       color: #006BD9;
@@ -69,8 +95,16 @@
   &-item {
     font-size: $font-size-bigger;
     padding: 15px 0;
-
-    a { color: $text_color; }
+    padding: 15px 0;
+      color: #006BD9;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 20px;
+      & img{
+        padding-right: 10px;
+      }
+    a { color: #006BD9; }
   }
 }
 

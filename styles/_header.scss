@@ -67,6 +67,7 @@ $header-height: 71px;
 
   > li {
     display: inline-block;
+    padding-right: 30px;
   }
 }
 
@@ -81,9 +82,11 @@ $header-height: 71px;
     }
 
     border: 0;
-    color: #ffffff;
+    color: #6D6D72;
     display: none;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
     padding: 0 20px 0 0;
     width: auto;
 
@@ -92,8 +95,8 @@ $header-height: 71px;
     &:hover,
     &:focus,
     &:active {
-      
-      text-decoration: underline;
+      color: #006bd9;
+      text-decoration: none;
     }
   }
 }

@@ -1,0 +1,145 @@
+/* callouts used in articles */
+.callout {
+  padding: 20px;
+  margin-bottom: calc($font_size_base * $line_height_base);
+  background-color: #dee2e6;
+  border-left-width: 5px;
+  border-left-style: solid;
+  margin: 10px 0 10px 0;
+}
+
+.callout p:last-child {
+    margin-bottom: 0;
+  }
+
+.callout--transparent {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #dedede;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
+}
+
+.callout--success {
+  color: $text_color;
+  background-color: #f1f9f1;
+  border-color: $brand_success;
+}
+
+.callout--success .callout__title {
+    color: $brand_success;
+  }
+
+.callout--info {
+  color: $text_color;
+  background-color: lighten($brand_info, 32%);
+  border-color: $brand_info;
+}
+
+.callout--info .callout__title {
+    color: $brand_info;
+  }
+
+.callout--warning {
+  color: $text_color;
+  background-color: lighten($brand_warning, 23%);
+  border-color: $brand_warning;
+}
+
+.callout--warning .callout__title {
+    color: $brand_warning;
+  }
+
+.callout--danger {
+  color: $text_color;
+  background-color: lighten($brand_danger, 30%);
+  border-color: $brand_danger;
+}
+
+.callout--danger .callout__title {
+    color: $brand_danger;
+  }
+
+.callout--primary {
+  color: $text_color;
+  background-color: lighten($brand_primary, 47%);
+  border-color: $brand_primary;
+}
+
+.callout--primary .callout__title {
+    color: $brand_primary;
+  }
+
+.callout--dashed {
+  border-width: 1px;
+  border-style: dashed;
+}
+
+.note {
+  position: relative;
+  margin: 10px 0 10px 0;
+  padding-left: 12px;
+  border-left: calc(2px * 4) solid transparent;
+  color: lighten($text_color, 20%);
+}
+
+.note p:last-child {
+    margin-bottom: 0;
+  }
+
+.note-title {
+  margin-bottom: calc($font_size_base * $line_height_base / 2);
+  font-weight: 600;
+}
+
+.note-default {
+  border-color: #818a91;
+}
+
+.note--default {
+  border-color: #818a91;
+}
+
+.note-default .note-title {
+    color: #818a91;
+  }
+
+.note--default .note-title {
+    color: #818a91;
+  }
+
+.note-info,
+.note--info {
+  border-color: $brand_info;
+}
+
+.note-info .note-title, .note--info .note-title {
+    color: $brand_info;
+  }
+
+.note-warning,
+.note--warning {
+  border-color: $brand_warning;
+}
+
+.note-warning .note-title, .note--warning .note-title {
+    color: $brand_warning;
+  }
+
+.note-success,
+.note--success {
+  border-color: $brand_success;
+}
+
+.note-success .note-title, .note--success .note-title {
+    color: $brand_success;
+  }
+
+.note-danger,
+.note--danger {
+  border-color: $brand_danger;
+}
+
+.note-danger .note-title, .note--danger .note-title {
+    color: $brand_danger;
+  }

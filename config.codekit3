@@ -30,7 +30,7 @@
 		},
 	"/assets/headshot_joe.png": {
 		"ft": 32768,
-		"iS": 14985,
+		"iS": 6002021,
 		"oA": 0,
 		"oAP": "/assets/headshot_joe.png",
 		"oF": 0,
@@ -71,6 +71,113 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/assets/icon_chat.png": {
+		"ft": 32768,
+		"iS": 1079,
+		"oA": 0,
+		"oAP": "/assets/icon_chat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icon_friend_invite.png": {
+		"ft": 32768,
+		"iS": 994,
+		"oA": 0,
+		"oAP": "/assets/icon_friend_invite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icon_gettingstarted.png": {
+		"ft": 32768,
+		"iS": 916,
+		"oA": 0,
+		"oAP": "/assets/icon_gettingstarted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icon_mobileapp.png": {
+		"ft": 32768,
+		"iS": 913,
+		"oA": 0,
+		"oAP": "/assets/icon_mobileapp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icon_presales.png": {
+		"ft": 32768,
+		"iS": 1184,
+		"oA": 0,
+		"oAP": "/assets/icon_presales.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icon_problemsolving.png": {
+		"ft": 32768,
+		"iS": 1131,
+		"oA": 0,
+		"oAP": "/assets/icon_problemsolving.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icon_smartphone.png": {
+		"ft": 32768,
+		"iS": 913,
+		"oA": 0,
+		"oAP": "/assets/icon_smartphone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icon_supportticket.png": {
+		"ft": 32768,
+		"iS": 1152,
+		"oA": 0,
+		"oAP": "/assets/icon_supportticket.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icon_youraccount.png": {
+		"ft": 32768,
+		"iS": 1466,
+		"oA": 0,
+		"oAP": "/assets/icon_youraccount.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/invoice-128.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/invoice-128.pdf",
+		"oF": 0
 		},
 	"/assets/logo_blockmarktech.png": {
 		"ft": 32768,
@@ -374,6 +481,19 @@
 		"sct": 0
 		},
 	"/styles/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/style.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/styles/_callouts.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
