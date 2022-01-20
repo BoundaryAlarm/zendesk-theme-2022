@@ -6,8 +6,8 @@
   * 17%     | 66%     | 17%
   */
   @include desktop {
-    flex: 1 0 66%;
-    max-width: 66%;
+    flex: 1 0 80%;
+    max-width: 80%;
     min-width: 640px;
     padding: 0 30px;
   }
@@ -107,17 +107,41 @@
   }
 
   &-sidebar {
+    @include mobile {display: none;}
     @include desktop {
       border: 0;
-      flex: 0 0 17%;
+      flex: 0 0 20%;
       height: auto;
-    }
 
+    }
+    h2{
+      font: Barlow;
+      font-weight: 600;
+      font-stryle: normal;
+      font-size: 24px;
+      line-height: 32px;
+      color: #000000;
+    }
     border-bottom: 1px solid $border-color;
     border-top: 1px solid $border-color;
     flex: 1 0 auto; //Explicit values needed whith flex-direction: column for IE11
     margin-bottom: 20px;
     padding: 0;
+    & li {
+      margin-bottom: 16px;
+
+    }
+    & li a{
+      color: #006BD9;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 28px;
+      vertical-align: top;
+      padding-left: 10px;
+    }
+    & li img{
+      width: 30px;
+    }
   }
 
   &-relatives {

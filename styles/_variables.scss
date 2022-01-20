@@ -1,11 +1,20 @@
 // Variables
 
 // Colors
+
+$brand_success: #5cb85c !default;
+$brand_info: #5bc0de !default;
+$brand_warning: #f0ad4e !default;
+$brand_danger: #ff5252 !default;
+$brand_primary: #107CD7 !default;
+$brand_text_color: #fff !default; //Color for text with an accent color background
+
+
 $brand_color: #17494d !default;
 $brand_text_color: #fff !default; //Color for text with an accent color background
 $text_color: #333 !default;
-$link_color: #17494d !default;
-$visited_link_color: #17494d !default;
+$link_color: #006bd9 !default;
+$visited_link_color: #006bd9 !default;
 $background_color: #F2F2F7 !default;
 
 $hover-button-color: zass-darken($brand_color, 20%);
@@ -15,7 +24,7 @@ $primary-shade: zass-darken($background_color, 3%); //#f8f8f8 for the default ba
 $secondary-shade: zass-darken($background_color, 5%); //#f2f2f2 for the default background_color
 
 $font-size-bigger: 16px;
-$font-size-base: 15px;
+$font-size-base: 18px;
 $font-size-navigation: 14px;
 $font-size-small: 13px;
 $font-size-smaller: 11px;
@@ -31,9 +40,9 @@ $field-text-focus-color: #555;
 // Breakpoints variables
 $tablet-width: 768px;
 $desktop-width: 1024px;
-$max-width-container: 1160px;
+$max-width-container: 1360px;
 
 // Fonts
-$heading_font: Barlow !default;
-$text_font: Barlow !default;
+$heading_font: Barlow,Arial,sans-serif !default;
+$text_font: Barlow,Arial,sans-serif !default;
 $font-weight-semibold: 600;

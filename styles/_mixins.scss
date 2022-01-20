@@ -34,6 +34,12 @@
   transform: translateY(-50%);
 }
 
+@mixin vertical-align-hh {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
 @mixin text-overflow {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
