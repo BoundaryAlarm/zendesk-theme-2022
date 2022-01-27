@@ -937,7 +937,6 @@ ul {
 .footer {
   background-color: #026BD9;
   padding: 30px 0;
-  margin-top: 20px;
   color: wwhite;
 }
 .footer a, .footer p {
@@ -1025,6 +1024,65 @@ ul {
 .footer-grid-col li {
   margin-left: 5px;
   margin-bottom: 5px;
+}
+
+.ces {
+  background-color: #ffffff;
+  padding: 30px 0;
+}
+.ces-inner {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 5%;
+  min-height: 200px;
+}
+@media (min-width: 1360px) {
+  .ces-inner {
+    padding: 0;
+    width: 90%;
+  }
+}
+.ces h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.ces h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.ces p {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.ces ul {
+  list-style-stype: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.ces ul > li {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top;
+  min-width: 10px;
+}
+.ces-score a {
+  font-weight: 600;
+  background: #216BD9;
+  border: 1px solid #216BD9;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 3px 10px 3px 10px;
+  color: #ffffff;
+}
+.ces-score a:hover {
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid #216BD9;
+  color: #216BD9;
 }
 
 /***** Breadcrumbs *****/
@@ -1349,10 +1407,6 @@ ul {
 .blocks-item:hover, .split-button button.blocks-item {
   border: 1px solid #006BD9;
 }
-.blocks-item:focus *, .blocks-item:active * {
-  color: #fff;
-  text-decoration: none;
-}
 .blocks-item-internal {
   background-color: transparent;
   border: 1px solid #ddd;
@@ -1378,11 +1432,6 @@ ul {
   text-decoration: none;
 }
 .blocks-item-link:hover, .split-button button.blocks-item-link, .blocks-item-link:active {
-  text-decoration: none;
-}
-.blocks-item-link:focus {
-  outline: 0;
-  box-shadow: 0 0 0 3px #17494d;
   text-decoration: none;
 }
 .blocks-item-title {
