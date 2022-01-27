@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/assets/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
@@ -138,9 +146,20 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/icon_smart.png": {
+		"ft": 32768,
+		"iS": 1082,
+		"oA": 0,
+		"oAP": "/assets/icon_smart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/icon_smartphone.png": {
 		"ft": 32768,
-		"iS": 913,
+		"iS": 1082,
 		"oA": 0,
 		"oAP": "/assets/icon_smartphone.png",
 		"oF": 0,
@@ -171,13 +190,16 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/invoice-128.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/assets/logo_appleappstore.png": {
+		"ft": 32768,
+		"iS": 14751,
 		"oA": 0,
-		"oAP": "/assets/invoice-128.pdf",
-		"oF": 0
+		"oAP": "/assets/logo_appleappstore.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/assets/logo_blockmarktech.png": {
 		"ft": 32768,
@@ -216,6 +238,17 @@
 		"iS": 6991,
 		"oA": 0,
 		"oAP": "/assets/logo_bsia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/logo_googleplay.png": {
+		"ft": 32768,
+		"iS": 18537,
+		"oA": 0,
+		"oAP": "/assets/logo_googleplay.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

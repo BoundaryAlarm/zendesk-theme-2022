@@ -14,11 +14,21 @@
   }
 
   &-logo{
+    @include mobile{ display: none; }
     width: 50%;
     horiztonal-align: left;
     margin-right: 10px;
   }
+  &-logo-mobile{
+    @include desktop{display: none;}
+    width: 100%;
+    clear: both;
+  }
   &-account{
+    @include mobile{
+      width: 100%;
+      clear: both;
+    }
     flex-grow: 1;
     & a {
       font-weight: 600;
