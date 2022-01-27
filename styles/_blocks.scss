@@ -31,15 +31,7 @@
     &:hover{
       border: 1px solid #006BD9;
     }
-    &:focus,
-    &:active {
-      
-
-      * {
-        color: $brand_text_color;
-        text-decoration: none;
-      }
-    }
+    
 
     &-internal {
       background-color: transparent;
@@ -73,10 +65,7 @@
 
     }
     
-    &:focus {
-      @include focus-ring;
-      text-decoration: none;
-    }
+    
   }
 
   &-item-title {
