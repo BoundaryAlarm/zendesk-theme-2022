@@ -251,7 +251,7 @@ input:not([type=checkbox]) {
   outline: none;
 }
 input:not([type=checkbox]):focus {
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
 }
 
 input[disabled] {
@@ -271,7 +271,7 @@ select {
   width: 100%;
 }
 select:focus {
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
 }
 select::-ms-expand {
   display: none;
@@ -286,7 +286,7 @@ textarea {
   padding: 10px;
 }
 textarea:focus {
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
 }
 
 .container {
@@ -348,12 +348,12 @@ ul {
 /***** Buttons *****/
 .button, .pagination-next-link, .pagination-prev-link, .pagination-first-link, .pagination-last-link, .subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .community-follow button, .article-subscribe button, .section-subscribe button, .split-button button {
   background-color: transparent;
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
   border-radius: 4px;
-  color: #17494d;
+  color: #216BD9;
   cursor: pointer;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2.34;
   margin: 0;
   padding: 0 20px;
@@ -370,13 +370,13 @@ ul {
   }
 }
 .button:hover, .pagination-next-link:hover, .pagination-prev-link:hover, .pagination-first-link:hover, .pagination-last-link:hover, .subscriptions-subscribe button:hover, .requests-table-toolbar .organization-subscribe button:hover, .community-follow button:hover, .article-subscribe button:hover, .section-subscribe button:hover, .split-button button, .button:active, .pagination-next-link:active, .pagination-prev-link:active, .pagination-first-link:active, .pagination-last-link:active, .subscriptions-subscribe button:active, .requests-table-toolbar .organization-subscribe button:active, .community-follow button:active, .article-subscribe button:active, .section-subscribe button:active, .button:focus, .pagination-next-link:focus, .pagination-prev-link:focus, .pagination-first-link:focus, .pagination-last-link:focus, .subscriptions-subscribe button:focus, .requests-table-toolbar .organization-subscribe button:focus, .community-follow button:focus, .article-subscribe button:focus, .section-subscribe button:focus, .button.button-primary, .button-primary.pagination-next-link, .button-primary.pagination-prev-link, .button-primary.pagination-first-link, .button-primary.pagination-last-link, .subscriptions-subscribe button.button-primary, .subscriptions-subscribe button[data-selected=true], .requests-table-toolbar .organization-subscribe button.button-primary, .requests-table-toolbar .organization-subscribe button[data-selected=true], .community-follow button.button-primary, .article-subscribe button.button-primary, .article-subscribe button[data-selected=true], .section-subscribe button.button-primary, .section-subscribe button[data-selected=true] {
-  background-color: #17494d;
+  background-color: #216BD9;
   color: #fff;
   text-decoration: none;
 }
 .button.button-primary:hover, .button:hover, .pagination-next-link:hover, .pagination-prev-link:hover, .pagination-first-link:hover, .pagination-last-link:hover, .subscriptions-subscribe button:hover, .requests-table-toolbar .organization-subscribe button:hover, .community-follow button:hover, .article-subscribe button:hover, .section-subscribe button:hover, .split-button button, .button.button-primary:focus, .button-primary.pagination-next-link:focus, .button-primary.pagination-prev-link:focus, .button-primary.pagination-first-link:focus, .button-primary.pagination-last-link:focus, .subscriptions-subscribe button.button-primary:focus, .subscriptions-subscribe button[data-selected=true]:focus, .requests-table-toolbar .organization-subscribe button.button-primary:focus, .requests-table-toolbar .organization-subscribe button[data-selected=true]:focus, .community-follow button.button-primary:focus, .article-subscribe button.button-primary:focus, .article-subscribe button[data-selected=true]:focus, .section-subscribe button.button-primary:focus, .section-subscribe button[data-selected=true]:focus, .button.button-primary:active, .button-primary.pagination-next-link:active, .button-primary.pagination-prev-link:active, .button-primary.pagination-first-link:active, .button-primary.pagination-last-link:active, .subscriptions-subscribe button.button-primary:active, .subscriptions-subscribe button[data-selected=true]:active, .requests-table-toolbar .organization-subscribe button.button-primary:active, .requests-table-toolbar .organization-subscribe button[data-selected=true]:active, .community-follow button.button-primary:active, .article-subscribe button.button-primary:active, .article-subscribe button[data-selected=true]:active, .section-subscribe button.button-primary:active, .section-subscribe button[data-selected=true]:active {
-  background-color: zass-darken(#17494d, 20%);
-  border-color: zass-darken(#17494d, 20%);
+  background-color: zass-darken(#216BD9, 20%);
+  border-color: zass-darken(#216BD9, 20%);
 }
 .button[data-disabled], [data-disabled].pagination-next-link, [data-disabled].pagination-prev-link, [data-disabled].pagination-first-link, [data-disabled].pagination-last-link, .subscriptions-subscribe button[data-disabled], .requests-table-toolbar .organization-subscribe button[data-disabled], .community-follow button[data-disabled], .article-subscribe button[data-disabled], .section-subscribe button[data-disabled], .split-button button[data-disabled] {
   cursor: default;
@@ -384,7 +384,7 @@ ul {
 
 .button-large, input[type=submit] {
   cursor: pointer;
-  background-color: #17494d;
+  background-color: #216BD9;
   border: 0;
   border-radius: 4px;
   color: #fff;
@@ -400,7 +400,7 @@ ul {
   }
 }
 .button-large:hover, .split-button button.button-large, .button-large:active, .button-large:focus, input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
-  background-color: zass-darken(#17494d, 20%);
+  background-color: zass-darken(#216BD9, 20%);
 }
 .button-large[disabled], input[type=submit][disabled] {
   background-color: #ddd;
@@ -423,12 +423,12 @@ ul {
 }
 
 .split-button button {
-  background-color: #17494d;
+  background-color: #216BD9;
   border: 0;
   color: #fff;
   height: 32px;
   line-height: 16px;
-  outline-color: #17494d;
+  outline-color: #216BD9;
 }
 
 [dir=rtl] .split-button button:not(:only-child):first-child {
@@ -533,7 +533,7 @@ ul {
   width: 100%;
 }
 .form-field input:focus {
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
 }
 
 .form-field input[type=text] {
@@ -541,7 +541,7 @@ ul {
   border-radius: 4px;
 }
 .form-field input[type=text]:focus {
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
 }
 
 .form-field input[type=checkbox] {
@@ -556,13 +556,13 @@ ul {
   vertical-align: middle;
 }
 .form-field .nesty-input:focus {
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
   text-decoration: none;
 }
 
 .form-field .hc-multiselect-toggle:focus {
   outline: none;
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
   text-decoration: none;
 }
 
@@ -637,7 +637,7 @@ ul {
 
 .logo span {
   margin: 0 10px;
-  color: #17494d;
+  color: #216BD9;
 }
 
 .logo a {
@@ -919,7 +919,7 @@ ul {
   width: 40px;
 }
 .avatar .icon-agent {
-  color: #17494d;
+  color: #216BD9;
   border: 2px solid #fff;
   border-radius: 50%;
   bottom: -4px;
@@ -1143,7 +1143,7 @@ ul {
   padding-left: 200px;
 }
 .search input[type=search]:focus {
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
   color: #555;
 }
 .search-full input[type=search] {
@@ -1253,23 +1253,28 @@ ul {
   display: flex;
 }
 .hero-internal-left {
-  width: 600px;
   horiztonal-align: left;
+  width: 600px;
 }
-@media screen and (max-width: 360px) {
+@media (max-width: 420px) {
   .hero-internal-left {
-    width: 85% !important;
+    width: 100% !important;
+    horizontal-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
-.hero-internal-right {
-  color: #ffffff;
-  flex-grow: 1;
-  text-align: center;
-  margin: 0;
-}
-@media screen and (max-width: 900px) {
+@media (max-width: 420px) {
   .hero-internal-right {
     display: none !important;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-internal-right {
+    color: #ffffff;
+    flex-grow: 1;
+    text-align: right;
+    margin: 0;
   }
 }
 .hero-internal-buttons {
@@ -1366,12 +1371,12 @@ ul {
 
 .sticky {
   position: fixed;
-  top: 10;
+  top: 1;
   width: 100%;
 }
 
 .sticky + .category-container {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 /***** Blocks *****/
@@ -1392,7 +1397,7 @@ ul {
   border: 1px solid #E9E9EE;
   box-sizing: border-box;
   border-radius: 16px;
-  color: #17494d;
+  color: #216BD9;
   display: flex;
   flex: 1 0 340px;
   margin: 0 0 30px;
@@ -1422,7 +1427,7 @@ ul {
 }
 .blocks-item-link {
   background: #ffffff;
-  color: #17494d;
+  color: #216BD9;
   padding: 20px 30px;
   display: flex;
   flex-direction: column;
@@ -1663,7 +1668,7 @@ ul {
 }
 .recent-activity-comment-icon svg {
   vertical-align: middle;
-  color: #17494d;
+  color: #216BD9;
   width: 16px;
   height: 16px;
 }
@@ -1799,7 +1804,7 @@ ul {
 }
 
 .icon-star {
-  color: #17494d;
+  color: #216BD9;
   font-size: 18px;
 }
 
@@ -1888,6 +1893,7 @@ ul {
 }
 .article-avatar {
   margin-right: 10px;
+  z-index: 0;
 }
 .article-author {
   margin-bottom: 10px;
@@ -1987,7 +1993,7 @@ ul {
 }
 .article-comment-count-icon {
   vertical-align: middle;
-  color: #17494d;
+  color: #216BD9;
   width: 18px;
   height: 18px;
 }
@@ -2103,7 +2109,7 @@ ul {
   padding: 10px;
 }
 .sidenav-item.current-article, .sidenav-item:hover, .split-button button.sidenav-item {
-  background-color: #17494d;
+  background-color: #216BD9;
   color: #fff;
   text-decoration: none;
 }
@@ -2162,7 +2168,7 @@ ul {
 }
 .share a:hover {
   text-decoration: none;
-  color: #17494d;
+  color: #216BD9;
 }
 .share a svg {
   height: 18px;
@@ -2198,7 +2204,7 @@ ul {
   margin-bottom: 0;
 }
 .comment-callout a {
-  color: #17494d;
+  color: #216BD9;
 }
 .comment-sorter {
   display: inline-block;
@@ -2216,7 +2222,7 @@ ul {
   position: relative;
 }
 .comment-wrapper.comment-official {
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
   padding: 40px 20px 20px;
 }
 @media (min-width: 601px) {
@@ -2316,7 +2322,7 @@ ul {
   margin-top: 10px;
 }
 .comment-attachments a {
-  color: #17494d;
+  color: #216BD9;
 }
 .comment-body {
   -moz-hyphens: auto;
@@ -2405,7 +2411,7 @@ ul {
 .vote-up:hover, .split-button button.vote-up,
 .vote-down:hover,
 .split-button button.vote-down {
-  color: #17494d;
+  color: #216BD9;
 }
 
 .vote-up, .vote-down {
@@ -2424,11 +2430,11 @@ ul {
 }
 
 .vote-voted {
-  color: #17494d;
+  color: #216BD9;
 }
 
 .vote-voted:hover, .split-button button.vote-voted {
-  color: zass-darken(#17494d, 20%);
+  color: zass-darken(#216BD9, 20%);
 }
 
 /***** Actions *****/
@@ -2551,14 +2557,14 @@ ul {
   }
 }
 .community-follow button:hover, .community-follow .split-button button, .split-button .community-follow button {
-  background-color: #17494d;
+  background-color: #216BD9;
 }
 .community-follow button:hover::after, .community-follow .split-button button::after, .split-button .community-follow button::after, .community-follow button:focus::after {
   border-color: #fff;
   color: #fff;
 }
 .community-follow button[data-selected=true] {
-  background-color: #17494d;
+  background-color: #216BD9;
   color: #fff;
 }
 .community-follow button[data-selected=true]::after {
@@ -2566,13 +2572,13 @@ ul {
   color: #fff;
 }
 .community-follow button[data-selected=true]:hover, .community-follow .split-button button[data-selected=true], .split-button .community-follow button[data-selected=true] {
-  background-color: zass-darken(#17494d, 20%);
-  border-color: zass-darken(#17494d, 20%);
+  background-color: zass-darken(#216BD9, 20%);
+  border-color: zass-darken(#216BD9, 20%);
 }
 .community-follow button::after {
-  border-left: 1px solid #17494d;
+  border-left: 1px solid #216BD9;
   content: attr(data-follower-count);
-  color: #17494d;
+  color: #216BD9;
   display: inline-block;
   font-family: Barlow, Arial, sans-serif;
   margin-left: 15px;
@@ -2587,7 +2593,7 @@ ul {
 }
 [dir=rtl] .community-follow button::after {
   border-left: 0;
-  border-right: 1px solid #17494d;
+  border-right: 1px solid #216BD9;
   margin: 0 10px 0 0;
   padding: 0 10px 0 0;
 }
@@ -2682,7 +2688,7 @@ ul {
   text-decoration: none;
 }
 .status-label-pinned, .status-label-featured, .status-label-official {
-  background-color: #17494d;
+  background-color: #216BD9;
 }
 .status-label-official {
   border-radius: 0;
@@ -2880,7 +2886,7 @@ ul {
   text-decoration: none;
 }
 .post-comment-count .icon-comments {
-  color: #17494d;
+  color: #216BD9;
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -3053,7 +3059,7 @@ ul {
 }
 .collapsible-nav-toggle:focus {
   outline: none;
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
 }
 
 .collapsible-nav-list {
@@ -3120,7 +3126,7 @@ ul {
 @media (min-width: 601px) {
   .collapsible-nav-list li[aria-selected=true],
 .collapsible-nav-list li.current {
-    border-bottom: 4px solid #17494d;
+    border-bottom: 4px solid #216BD9;
     order: 1;
   }
 }
@@ -3183,7 +3189,7 @@ ul {
 }
 .collapsible-sidebar-toggle:focus {
   outline: none;
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
 }
 .collapsible-sidebar-body {
   display: none;
@@ -3486,7 +3492,7 @@ ul {
   border-bottom: 0;
 }
 .request-main .form-field.comment-ccs > ul[data-hc-focus=true] {
-  border: 1px solid #17494d;
+  border: 1px solid #216BD9;
 }
 .request-main .form-field.comment-ccs > input[type=text] {
   border-bottom-left-radius: 0;
@@ -3499,7 +3505,7 @@ ul {
   margin-top: 0;
 }
 .request-main .comment-ccs + textarea:focus {
-  border-top: 1px solid #17494d;
+  border-top: 1px solid #216BD9;
 }
 .request-main input#mark_as_solved {
   display: none;
@@ -3883,9 +3889,9 @@ ul {
 
 .profile-private-badge {
   flex-basis: 100%;
-  border: solid 1px #17494d;
+  border: solid 1px #216BD9;
   border-radius: 4px;
-  color: #17494d;
+  color: #216BD9;
   padding: 5px 20px;
   font-size: 12px;
   text-align: center;
@@ -4403,7 +4409,7 @@ ul {
   position: relative;
 }
 .search-result-votes-icon, .search-result-meta-count-icon {
-  color: #17494d;
+  color: #216BD9;
   vertical-align: middle;
   width: 13px;
   height: 13px;

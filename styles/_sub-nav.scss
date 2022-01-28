@@ -22,11 +22,11 @@
 
 .sticky {
   position: fixed;
-  top: 10;
+  top: 1;
   width: 100%;
 }
 
 
 .sticky + .category-container {
-  padding-top: 10px;
+  padding-top: 0px;
 }
