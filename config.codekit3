@@ -25,6 +25,50 @@
 		"oAP": "/assets/.gitkeep",
 		"oF": 0
 		},
+	"/assets/callout_warning.png": {
+		"ft": 32768,
+		"iS": 55592,
+		"oA": 0,
+		"oAP": "/assets/callout_warning.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicon.png": {
+		"ft": 32768,
+		"iS": 573,
+		"oA": 0,
+		"oAP": "/assets/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicon2x.png": {
+		"ft": 32768,
+		"iS": 1196,
+		"oA": 0,
+		"oAP": "/assets/favicon2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicon3x.png": {
+		"ft": 32768,
+		"iS": 1627,
+		"oA": 0,
+		"oAP": "/assets/favicon3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/headshot_bonnie.png": {
 		"ft": 32768,
 		"iS": 78387,
@@ -184,6 +228,50 @@
 		"iS": 1466,
 		"oA": 0,
 		"oAP": "/assets/icon_youraccount.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/ipad2x.png": {
+		"ft": 32768,
+		"iS": 5142,
+		"oA": 0,
+		"oAP": "/assets/ipad2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/ipad3x.png": {
+		"ft": 32768,
+		"iS": 8169,
+		"oA": 0,
+		"oAP": "/assets/ipad3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/iphone2x.png": {
+		"ft": 32768,
+		"iS": 3923,
+		"oA": 0,
+		"oAP": "/assets/iphone2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/iphone3x.png": {
+		"ft": 32768,
+		"iS": 6203,
+		"oA": 0,
+		"oAP": "/assets/iphone3x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
