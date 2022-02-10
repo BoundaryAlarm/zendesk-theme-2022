@@ -3,8 +3,7 @@
   padding: 20px;
   margin-bottom: calc($font_size_base * $line_height_base);
   background-color: #dee2e6;
-  border-left-width: 5px;
-  border-left-style: solid;
+  border-radius: 18px;
   margin: 10px 0 10px 0;
 }
 
@@ -25,7 +24,10 @@
   background-color: #f1f9f1;
   border-color: $brand_success;
 }
+.callout__title{
+  font-size: 24px;
 
+}
 .callout--success .callout__title {
     color: $brand_success;
   }

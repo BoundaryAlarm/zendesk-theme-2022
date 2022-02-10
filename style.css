@@ -1200,7 +1200,7 @@ ul {
   margin: 0 auto;
 }
 .hero h2 {
-  font-family: Barlow;
+  font-family: Barlow, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -1452,6 +1452,27 @@ ul {
 }
 .blocks-item-description:not(:empty) {
   margin-top: 10px;
+}
+
+.caticon {
+  width: 52px;
+  height: 52px;
+  background-color: #F8F8FE;
+  border-radius: 18px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.caticon img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 /***** Homepage *****/
@@ -4716,8 +4737,7 @@ html[dir=rtl] .notification-left-aligned {
   padding: 20px;
   margin-bottom: calc($font_size_base * $line_height_base);
   background-color: #dee2e6;
-  border-left-width: 5px;
-  border-left-style: solid;
+  border-radius: 18px;
   margin: 10px 0 10px 0;
 }
 
@@ -4737,6 +4757,10 @@ html[dir=rtl] .notification-left-aligned {
   color: #333;
   background-color: #f1f9f1;
   border-color: #5cb85c;
+}
+
+.callout__title {
+  font-size: 24px;
 }
 
 .callout--success .callout__title {
