@@ -32,189 +32,50 @@
 	"buffers":
 	[
 		{
-			"file": "templates/document_head.hbs",
+			"file": "manifest.json",
 			"settings":
 			{
-				"buffer_size": 673,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"revert",
-					null,
-					"AgAAAAAAAAAAAAAAAAAAAAAAAABJAAAAPG1ldGEgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCIgbmFtZT0idmlld3BvcnQiIC8+CgAAAAAAAAAAoQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "templates/article_page.hbs",
-			"settings":
-			{
-				"buffer_size": 16525,
+				"buffer_size": 12101,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
-					7,
+					3,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEwAAAAAAAAATAAAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAATQAAAAAAAABNAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "6"
+					},
+					"AQAAAEwAAAAAAAAATQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
 					1,
 					"right_delete",
 					null,
-					"AQAAAH0HAAAAAAAAfQcAAAAAAAAEAAAAPCEtLQ",
-					"AQAAAAAAAAABAAAAfQcAAAAAAACBBwAAAAAAAAAAAAAAAPC/"
+					"AQAAAEwAAAAAAAAATAAAAAAAAAABAAAANg",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					10,
 					1,
-					"paste",
-					null,
-					"AgAAAM0HAAAAAAAAJAgAAAAAAAAAAAAAJAgAAAAAAAAkCAAAAAAAABYAAAAvaGMvZW4tZ2IvcmVxdWVzdHMvbmV3",
-					"AQAAAAAAAAABAAAAzQcAAAAAAADjBwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					13,
-					1,
-					"right_delete",
-					null,
-					"AQAAAM0HAAAAAAAAzQcAAAAAAAAeAAAAaHR0cHM6Ly9zdXBwb3J0LmJvdW5kYXJ5LmNvLnVr",
-					"AQAAAAAAAAABAAAAzQcAAAAAAADrBwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					3,
-					"left_delete",
-					null,
-					"AwAAAB8IAAAAAAAAHwgAAAAAAAABAAAAPh4IAAAAAAAAHggAAAAAAAABAAAALR0IAAAAAAAAHQgAAAAAAAABAAAALQ",
-					"AQAAAAAAAAABAAAAIAgAAAAAAAAgCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					19,
-					5,
-					"left_delete",
-					null,
-					"BQAAAF8GAAAAAAAAXwYAAAAAAACCAAAAPGxpIGNsYXNzPSJzZWN0aW9uLW5hbWUiPjxpbWcgc3JjPSJ7e2Fzc2V0ICdpY29uX21vYmlsZWFwcC5wbmcnfX0iPjxhIGhyZWY9Ii9oYy9lbi1nYi9jYXRlZ29yaWVzLzM2MDAwMDMwNTc5OCI+TW9iaWxlIEFwcDwvYT48L2xpPl0GAAAAAAAAXQYAAAAAAAACAAAAICBbBgAAAAAAAFsGAAAAAAAAAgAAACAgWQYAAAAAAABZBgAAAAAAAAIAAAAgIFcGAAAAAAAAVwYAAAAAAAACAAAAICA",
-					"AQAAAAAAAAABAAAAXwYAAAAAAADhBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"left_delete",
-					null,
-					"AQAAAFYGAAAAAAAAVgYAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAVwYAAAAAAABXBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					23,
-					1,
-					"right_delete",
-					null,
-					"AQAAAAkEAAAAAAAACQQAAAAAAAAEAAAAPCEtLQ",
-					"AQAAAAAAAAABAAAACQQAAAAAAAANBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					26,
-					1,
-					"right_delete",
-					null,
-					"AQAAAI0EAAAAAAAAjQQAAAAAAAADAAAALS0+",
-					"AQAAAAAAAAABAAAAkAQAAAAAAACNBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					29,
-					1,
-					"cut",
-					null,
-					"AQAAACsFAAAAAAAAKwUAAAAAAACMAAAAPGxpIGNsYXNzPSJzZWN0aW9uLW5hbWUiPjxpbWcgc3JjPSJ7e2Fzc2V0ICdpY29uX3Byb2JsZW1zb2x2aW5nLnBuZyd9fSI+PGEgaHJlZj0iL2hjL2VuLWdiL2NhdGVnb3JpZXMvMzYwMDAzNDk2NTU3Ij5Qcm9ibGVtIFNvbHZpbmc8L2E+PC9saT4",
-					"AQAAAAAAAAABAAAAtwUAAAAAAAArBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					30,
-					5,
-					"left_delete",
-					null,
-					"BQAAACkFAAAAAAAAKQUAAAAAAAACAAAAICAnBQAAAAAAACcFAAAAAAAAAgAAACAgJQUAAAAAAAAlBQAAAAAAAAIAAAAgICMFAAAAAAAAIwUAAAAAAAACAAAAICAiBQAAAAAAACIFAAAAAAAAAQAAAAo",
-					"AQAAAAAAAAABAAAAKwUAAAAAAAArBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					33,
-					1,
 					"insert",
 					{
-						"characters": "\n"
+						"characters": "7"
 					},
-					"AgAAALoFAAAAAAAAuwUAAAAAAAAAAAAAuwUAAAAAAADDBQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAugUAAAAAAAC6BQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					34,
-					5,
-					"left_delete",
-					null,
-					"BQAAAMEFAAAAAAAAwQUAAAAAAAACAAAAICC/BQAAAAAAAL8FAAAAAAAAAgAAACAgvQUAAAAAAAC9BQAAAAAAAAIAAAAgILsFAAAAAAAAuwUAAAAAAAACAAAAICC6BQAAAAAAALoFAAAAAAAAAQAAAAo",
-					"AQAAAAAAAAABAAAAwwUAAAAAAADDBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					41,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAACIFAAAAAAAAIwUAAAAAAAAAAAAAIwUAAAAAAAArBQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIgUAAAAAAAAiBQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					42,
-					1,
-					"paste",
-					null,
-					"AQAAACsFAAAAAAAAtwUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKwUAAAAAAAArBQAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "templates/category_page.hbs",
-			"settings":
-			{
-				"buffer_size": 4578,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					3,
-					1,
-					"paste",
-					null,
-					"AgAAAPwDAAAAAAAAfgcAAAAAAAAAAAAAfgcAAAAAAAB+BwAAAAAAAPkDAAAgPCEtLTxsaSBjbGFzcz0ic2VjdGlvbi1uYW1lIj48aW1nIHNyYz0ie3thc3NldCAnaWNvbl9wcmVzYWxlcy5wbmcnfX0iPjxhIGhyZWY9Ii9oYy9lbi1nYi9jYXRlZ29yaWVzLzQ0MTczMzUwOTk3OTMiPlByZXNhbGUgRkFRczwvYT48L2xpPi0tPgogICAgICAgIDxsaSBjbGFzcz0ic2VjdGlvbi1uYW1lIj48aW1nIHNyYz0ie3thc3NldCAnaWNvbl9nZXR0aW5nc3RhcnRlZC5wbmcnfX0iPjxhIGhyZWY9Ii9oYy9lbi1nYi9jYXRlZ29yaWVzLzM2MDAwMDMwMTY1NyI+R2V0dGluZyBTdGFydGVkPC9hPjwvbGk+CiAgICAgICAgPGxpIGNsYXNzPSJzZWN0aW9uLW5hbWUiPjxpbWcgc3JjPSJ7e2Fzc2V0ICdpY29uX3Byb2JsZW1zb2x2aW5nLnBuZyd9fSI+PGEgaHJlZj0iL2hjL2VuLWdiL2NhdGVnb3JpZXMvMzYwMDAzNDk2NTU3Ij5Qcm9ibGVtIFNvbHZpbmc8L2E+PC9saT4KICAgICAgICA8bGkgY2xhc3M9InNlY3Rpb24tbmFtZSI+PGltZyBzcmM9Int7YXNzZXQgJ2ljb25feW91cmFjY291bnQucG5nJ319Ij48YSBocmVmPSIvaGMvZW4tZ2IvY2F0ZWdvcmllcy8zNjAwMDA1NjQ3OTgiPllvdXIgQWNjb3VudCAmIFN5c3RlbTwvYT48L2xpPgogICAgICAgIDxsaSBjbGFzcz0ic2VjdGlvbi1uYW1lIj48aW1nIHNyYz0ie3thc3NldCAnaWNvbl9tb2JpbGVhcHAucG5nJ319Ij48YSBocmVmPSIvaGMvZW4tZ2IvY2F0ZWdvcmllcy8zNjAwMDAzMDU3OTgiPk1vYmlsZSBBcHA8L2E+PC9saT4KICAgICAgICA8bGkgY2xhc3M9InNlY3Rpb24tbmFtZSI+PGltZyBzcmM9Int7YXNzZXQgJ2ljb25fc21hcnQucG5nJ319Ij48YSBocmVmPSIvaGMvZW4tZ2IvY2F0ZWdvcmllcy8zNjAwMDM1MDA0MzgiPlNtYXJ0IEhvbWUgSW50ZWdyYXRpb248L2E+PC9saT4KICAgICAgICA8IS0tPGxpIGNsYXNzPSJzZWN0aW9uLW5hbWUiPjxpbWcgc3JjPSJ7e2Fzc2V0ICdpY29uX2ZyaWVuZF9pbnZpdGUucG5nJ319Ij48YSBocmVmPSIvaGMvZW4tZ2IvcmVxdWVzdHMvbmV3Ij5SZWZlciAmIEVhcm48L2E+PC9saT4tLT4",
-					"AQAAAAAAAAABAAAA/AMAAAAAAAD1BwAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "templates/section_page.hbs",
-			"settings":
-			{
-				"buffer_size": 4616,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					5,
-					1,
-					"paste",
-					null,
-					"AgAAAPADAAAAAAAAcgcAAAAAAAAAAAAAcgcAAAAAAAByBwAAAAAAAPkDAAA8IS0tPGxpIGNsYXNzPSJzZWN0aW9uLW5hbWUiPjxpbWcgc3JjPSJ7e2Fzc2V0ICdpY29uX3ByZXNhbGVzLnBuZyd9fSI+PGEgaHJlZj0iL2hjL2VuLWdiL2NhdGVnb3JpZXMvNDQxNzMzNTA5OTc5MyI+UHJlc2FsZSBGQVFzPC9hPjwvbGk+LS0+CiAgICAgICAgIDxsaSBjbGFzcz0ic2VjdGlvbi1uYW1lIj48aW1nIHNyYz0ie3thc3NldCAnaWNvbl9nZXR0aW5nc3RhcnRlZC5wbmcnfX0iPjxhIGhyZWY9Ii9oYy9lbi1nYi9jYXRlZ29yaWVzLzM2MDAwMDMwMTY1NyI+R2V0dGluZyBTdGFydGVkPC9hPjwvbGk+CiAgICAgICAgPGxpIGNsYXNzPSJzZWN0aW9uLW5hbWUiPjxpbWcgc3JjPSJ7e2Fzc2V0ICdpY29uX3Byb2JsZW1zb2x2aW5nLnBuZyd9fSI+PGEgaHJlZj0iL2hjL2VuLWdiL2NhdGVnb3JpZXMvMzYwMDAzNDk2NTU3Ij5Qcm9ibGVtIFNvbHZpbmc8L2E+PC9saT4KICAgICAgICA8bGkgY2xhc3M9InNlY3Rpb24tbmFtZSI+PGltZyBzcmM9Int7YXNzZXQgJ2ljb25feW91cmFjY291bnQucG5nJ319Ij48YSBocmVmPSIvaGMvZW4tZ2IvY2F0ZWdvcmllcy8zNjAwMDA1NjQ3OTgiPllvdXIgQWNjb3VudCAmIFN5c3RlbTwvYT48L2xpPgogICAgICAgIDxsaSBjbGFzcz0ic2VjdGlvbi1uYW1lIj48aW1nIHNyYz0ie3thc3NldCAnaWNvbl9tb2JpbGVhcHAucG5nJ319Ij48YSBocmVmPSIvaGMvZW4tZ2IvY2F0ZWdvcmllcy8zNjAwMDAzMDU3OTgiPk1vYmlsZSBBcHA8L2E+PC9saT4KICAgICAgICA8bGkgY2xhc3M9InNlY3Rpb24tbmFtZSI+PGltZyBzcmM9Int7YXNzZXQgJ2ljb25fc21hcnQucG5nJ319Ij48YSBocmVmPSIvaGMvZW4tZ2IvY2F0ZWdvcmllcy8zNjAwMDM1MDA0MzgiPlNtYXJ0IEhvbWUgSW50ZWdyYXRpb248L2E+PC9saT4KICAgICAgICA8IS0tPGxpIGNsYXNzPSJzZWN0aW9uLW5hbWUiPjxpbWcgc3JjPSJ7e2Fzc2V0ICdpY29uX2ZyaWVuZF9pbnZpdGUucG5nJ319Ij48YSBocmVmPSIvaGMvZW4tZ2IvcmVxdWVzdHMvbmV3Ij5SZWZlciAmIEVhcm48L2E+PC9saT4tLT4",
-					"AQAAAAAAAAABAAAA8AMAAAAAAADpBwAAAAAAAAAAAAAAAPC/"
+					"AQAAAEwAAAAAAAAATQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		}
@@ -260,38 +121,39 @@
 	],
 	"file_history":
 	[
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/home_page.hbs",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/document_head.hbs",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/manifest.json",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/header.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/error_page.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_variables.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/article_page.hbs",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/request_page.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/document_head.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_hero.scss",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/home_page.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_callouts.scss",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_blocks.scss",
+		"/Users/phil/Documents/Github/zendesk-theme-launch/templates/home_page.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_home-page.scss",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/manifest.json",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/category_page.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/section_page.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/header.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/request_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/footer.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_sub-nav.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_article.scss",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_variables.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_buttons.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/contributions_page.hbs",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/error_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/new_request_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/user_profile_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/subscriptions_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/search_results.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/requests_page.hbs",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/section_page.hbs",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_blocks.scss",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_home-page.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_footer.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-launch/templates/document_head.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_mixins.scss",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/category_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_category.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_base.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_breadcrumbs.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_header.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/index.scss",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_callouts.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_search.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/style.css",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/assets/reviewsio_min.js",
@@ -304,7 +166,6 @@
 		"/Users/phil/Documents/Github/zendesk-theme-launch/manifest.json",
 		"/Users/phil/Documents/Github/zendesk-theme-launch/templates/footer.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-launch/templates/category_page.hbs",
-		"/Users/phil/Documents/Github/zendesk-theme-launch/templates/home_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-launch/styles/_blocks.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-launch/styles/_home-page.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-launch/templates/user_profile_page.hbs",
@@ -391,7 +252,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -408,6 +269,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"margin",
 			"favicon",
 			";\n",
 			"sticky",
@@ -452,116 +314,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "templates/document_head.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 673,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								673,
-								673
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/article_page.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16525,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1931,
-								1033
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 197.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "templates/category_page.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4578,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1918,
-								1918
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "templates/section_page.hbs",
+					"file": "manifest.json",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4616,
+						"buffer_size": 12101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1906,
-								1906
+								554,
+								554
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
