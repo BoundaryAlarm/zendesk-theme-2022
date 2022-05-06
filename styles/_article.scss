@@ -34,7 +34,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 20px;
   }
 
@@ -56,6 +56,7 @@
       position: relative;
       left: -5px;
       vertical-align: baseline;
+
     }
   }
 
@@ -81,7 +82,7 @@
 
   &-content {
     line-height: 1.6;
-    margin: 40px 0;
+    margin: 0px 0;
     word-wrap: break-word;
   }
 
@@ -246,4 +247,21 @@
   li {
     margin-bottom: 15px;
   }
+}
+.planheader{
+  background: linear-gradient(225deg, #17A3FF 0%, #006BD9 100%);
+  min-height: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  width: 100%;
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  line-height: 30px;
+  z-index: -1;
 }
