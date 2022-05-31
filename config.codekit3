@@ -387,6 +387,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/request_form_general.png": {
+		"ft": 32768,
+		"iS": 168401,
+		"oA": 0,
+		"oAP": "/assets/request_form_general.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/request_form_return.png": {
+		"ft": 32768,
+		"iS": 193098,
+		"oA": 0,
+		"oAP": "/assets/request_form_return.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/request_form_support.png": {
+		"ft": 32768,
+		"iS": 193894,
+		"oA": 0,
+		"oAP": "/assets/request_form_support.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/reviewsio_backup.js": {
 		"bF": 0,
 		"ft": 64,

@@ -177,3 +177,40 @@
     padding-top: 20px;
   }
 }
+.request-form{
+   
+   min-height: 200px;
+  & h2{
+    text-align: left;
+    margin-top: 20px;
+  }
+ 
+  & p{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+  }
+  & ul{
+    list-style-stype: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   text-align: center;
+  }
+  & ul > li{
+    display: inline-block;
+    padding: 15px;
+    padding-left: 50px;
+    vertical-align: top;
+    min-width: 20px;
+    text-align: center;
+  }
+  & a{
+    font-weight: bold;
+    text-align: center;
+  }
+  & img{
+    width: 150px;
+  }
+}
