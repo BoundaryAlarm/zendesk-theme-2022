@@ -31,54 +31,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "manifest.json",
-			"settings":
-			{
-				"buffer_size": 12101,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					3,
-					1,
-					"left_delete",
-					null,
-					"AQAAAEwAAAAAAAAATAAAAAAAAAABAAAANQ",
-					"AQAAAAAAAAABAAAATQAAAAAAAABNAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					4,
-					1,
-					"insert",
-					{
-						"characters": "6"
-					},
-					"AQAAAEwAAAAAAAAATQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					9,
-					1,
-					"right_delete",
-					null,
-					"AQAAAEwAAAAAAAAATAAAAAAAAAABAAAANg",
-					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"insert",
-					{
-						"characters": "7"
-					},
-					"AQAAAEwAAAAAAAAATQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -121,24 +73,25 @@
 	],
 	"file_history":
 	[
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/home_page.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/manifest.json",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_base.scss",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/footer.hbs",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_article.scss",
+		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/article_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/error_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_variables.scss",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/article_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/document_head.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_hero.scss",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/home_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_callouts.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_blocks.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-launch/templates/home_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_home-page.scss",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/manifest.json",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/category_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/section_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/header.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/request_page.hbs",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/footer.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_sub-nav.scss",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_article.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_buttons.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/contributions_page.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/templates/new_request_page.hbs",
@@ -150,7 +103,6 @@
 		"/Users/phil/Documents/Github/zendesk-theme-launch/templates/document_head.hbs",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_mixins.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_category.scss",
-		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_base.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_breadcrumbs.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/_header.scss",
 		"/Users/phil/Documents/Github/zendesk-theme-2022/styles/index.scss",
@@ -252,7 +204,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -312,38 +264,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "manifest.json",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12101,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								554,
-								554
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
